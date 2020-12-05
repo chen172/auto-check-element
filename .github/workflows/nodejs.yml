@@ -12,7 +12,7 @@ jobs:
         node-version: 12.x
     - name: npm install, build, and test
       run: |
-        ls
+        ls 
         npm install
         ls
         npm run build
